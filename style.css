@@ -1,0 +1,144 @@
+ .upper-part{
+text-align: center;
+background-color: #d2d5df;
+ }
+ .upper{
+    height: 130px;
+    width: 150PX;
+    position: relative;
+    left: 230px;
+ }
+ body{
+    margin: 0px;
+    padding: 0px;
+ }
+ .head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .upper-cloud{
+    height: 90px;
+ }
+ .lower{
+    height: 130px;
+    width: 150PX;
+    position: absolute;
+ }
+ .mountain{
+   height: 500px;
+ }
+.name{
+   font-family:'Dancing Script', cursive;
+   font-size: 4rem;
+   margin: 0px;
+   font-weight: 1200;
+   margin-bottom: 10px;
+   color: #ff0000b3
+}
+.prog{
+   font-size: 2rem;
+   font-family:'Dancing Script', cursive; 
+   margin: 0px;
+   margin-bottom: 30px;
+   font-weight: 200;
+   color: #ff00008a;
+}
+.pic-of-mine{
+   border-radius: 50px;
+   height: 160px;
+}
+.pic,.para{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.intro{
+   padding-top: 150px;
+   
+   
+}
+.S2{
+   font-family:'Lobster Two', cursive;
+   font-size: 1.5rem;
+   text-align: center;
+   margin-top: 30px;
+}
+.hello{
+   margin: 20px;
+   color: #ff00008a;
+   font-size: 4rem;
+   font-family:'Lobster Two', cursive; 
+   text-align: center;
+}
+hr{
+   border: none;
+   border-top: dotted black 5px;
+   width: 80px;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   
+}
+
+@media(max-width:790px){
+   .mountain{
+      width: 375px;
+      height: 250px;
+   }
+   
+}
+@media (max-width:790px) {
+   .upper-cloud{
+     position:relative;
+     right: 120px;
+   }
+   .upper{
+      height: 120px;
+   }
+}
+.skills{
+   text-align: center;
+}
+.Skill-head{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   color: #ff00008a;
+   font-size: 4rem;
+   font-family:'Lobster Two', cursive;
+}
+.bd-placeholder-img{
+   object-fit: contain;
+}
+.skills-para{
+color: grey;
+font-size: 1.2rem;
+font-family:'Lobster Two', cursive;
+}
+.fw-normal{
+   font-family:'Lobster Two', cursive;
+   margin: 30px 0px;
+}
+.icon{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.row{
+   justify-content: center;
+   align-items: center;
+}
+.get{
+   margin-top: 50px;
+   margin-bottom: 150px;
+   color: #ff00008a;
+   font-size: 4rem;
+   font-family:'Lobster Two', cursive;
+   text-align: center;
+}
+.footer{
+   font-family:'Lobster Two', cursive;
+   font-size: 1rem;
+}
